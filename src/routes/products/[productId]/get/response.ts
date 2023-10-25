@@ -1,6 +1,6 @@
 import { Static, Type } from "@sinclair/typebox";
 
-import { productType } from "../../../../types/typebox/product";
+import { productType } from "../../../../types/typebox/product.js";
 
 export const response = {
   200: Type.Object({

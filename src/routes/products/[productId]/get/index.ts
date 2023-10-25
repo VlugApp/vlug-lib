@@ -1,2 +1,2 @@
-export { params, type Params } from "./params";
-export { response, type Response } from "./response";
+export { params, type Params } from "./params.js";
+export { response, type Response } from "./response.js";

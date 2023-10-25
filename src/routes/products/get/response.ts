@@ -1,7 +1,7 @@
 import { Static, Type } from "@sinclair/typebox";
 
-import { productType } from "../../../types/typebox/product";
-import { generateOptionalSchema } from "../../../helpers/typebox/generate_optional_schema";
+import { productType } from "../../../types/typebox/product.js";
+import { generateOptionalSchema } from "../../../helpers/typebox/generate_optional_schema.js";
 
 export const response = {
   200: Type.Object({

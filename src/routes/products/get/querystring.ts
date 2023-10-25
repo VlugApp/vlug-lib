@@ -1,6 +1,6 @@
 import { Static, Type } from "@sinclair/typebox";
 
-import { generateOptionalSchema } from "../../../helpers/typebox/generate_optional_schema";
+import { generateOptionalSchema } from "../../../helpers/typebox/generate_optional_schema.js";
 
 export const querystring = Type.Object({
   search: generateOptionalSchema(Type.String()),

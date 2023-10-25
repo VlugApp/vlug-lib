@@ -1,2 +1,2 @@
-export { querystring, type Querystring } from "./querystring";
-export { response, type Response } from "./response";
+export { querystring, type Querystring } from "./querystring.js";
+export { response, type Response } from "./response.js";

@@ -3,8 +3,8 @@
     "strict": true,
     "noUncheckedIndexedAccess": true,
     "allowUnreachableCode": false,
-    "target": "esnext",
-    "module": "commonjs",
+    "target": "ES2020",
+    "module": "NodeNext",
     "allowJs": true,
     "declaration": true,
     "declarationMap": true,
@@ -22,6 +22,6 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["src"],
+  "include": ["./src"],
   "exclude": ["node_modules"]
 }
